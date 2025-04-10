@@ -6,19 +6,19 @@ This repository presents a machine learning (ML) approach to aid drug discovery 
 
 The goal of this project is to build and evaluate ML models that predict drug-likeness or other biological activities based on SWISSADME-derived features. It supports the early stages of drug discovery by filtering out compounds with poor pharmacokinetic profiles.
 
-**
-🧪 Key Features**
-🧾 Data Processing: Extraction and cleaning of molecular descriptors from SWISSADME.
+**🧪 Key Features**
+**🧾 Data Processing:** Extraction and cleaning of molecular descriptors from SWISSADME.
 
-🤖 ML Modeling: Training and evaluation of multiple ML models (e.g., Random Forest, SVM, XGBoost).
+**🤖 ML Modeling**: Training and evaluation of multiple ML models (e.g., Random Forest, SVM, XGBoost).
 
-📊 Visualization: Plots for feature importance, correlation heatmaps, and model performance.
+**📊 Visualization:** Plots for feature importance, correlation heatmaps, and model performance.
 
-📈 Metrics: Accuracy, precision    recall  f1-score, etc.
+**📈 Metrics**: Accuracy, precision    recall  f1-score, etc.
 
-✅ Drug-likeness Evaluation: Based on Lipinski’s Rule of Five and other filters.
+**✅ Drug-likeness Evaluation**: Based on Lipinski’s Rule of Five and other filters.
 
-🛠️ Technologies Used
+**🛠️ Packages Used**
+
 Python 🐍
 
 Pandas, NumPy
@@ -32,7 +32,8 @@ Matplotlib, Seaborn
 RDKit (optional for molecular structure handling)
 
 
-📊 Example SWISSADME Features Used
+**📊 Example SWISSADME Features Used**
+
 Molecular Weight
 
 LogP (lipophilicity)
@@ -47,14 +48,16 @@ GI Absorption
 
 Rule-based filters (Lipinski, Ghose, Veber, etc.)
 
-🧠 Model Pipeline
+**🧠 Model Pipeline**
+
 Data Cleaning & Feature Engineering
 
 Performance Evaluation
 
 Drug-likeness Scoring
 
-📈 Results
+**📈 Results**
+
 Key outcomes include:
 
 High predictive performance on identifying drug-like molecules.
@@ -63,17 +66,19 @@ Insightful feature importance rankings.
 
 Validation using external datasets or known drugs.
 
-📌 Future Work
+**📌 Future Work**
+
 Incorporate molecular fingerprints and graph-based features
 
 Deploy as a web app for interactive compound evaluation
 
 Integrate with other ADME prediction tools
 
-🙌 Contributions
+**🙌 Contributions**
+
 Contributions are welcome! Feel free to open issues, suggest improvements, or submit pull requests.
 
-📄 License
+**📄 License**
 This project is licensed under the FutureOmics License.
 
 
