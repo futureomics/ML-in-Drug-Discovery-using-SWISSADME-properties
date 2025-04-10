@@ -1,10 +1,13 @@
-🧬 ML in Drug Discovery using SWISSADME Properties
+**🧬 ML in Drug Discovery using SWISSADME Properties**
+
 This repository presents a machine learning (ML) approach to aid drug discovery using molecular properties derived from SWISSADME — a free web tool that computes physicochemical descriptors and predicts ADME (Absorption, Distribution, Metabolism, and Excretion) parameters, pharmacokinetic properties, drug-likeness, and more.
 
-🚀 Project Overview
+**🚀 Project Overview**
+
 The goal of this project is to build and evaluate ML models that predict drug-likeness or other biological activities based on SWISSADME-derived features. It supports the early stages of drug discovery by filtering out compounds with poor pharmacokinetic profiles.
 
-🧪 Key Features
+**
+🧪 Key Features**
 🧾 Data Processing: Extraction and cleaning of molecular descriptors from SWISSADME.
 
 🤖 ML Modeling: Training and evaluation of multiple ML models (e.g., Random Forest, SVM, XGBoost).
