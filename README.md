@@ -46,7 +46,11 @@ Rotatable Bonds
 
 GI Absorption
 
-Rule-based filters (Lipinski, Ghose, Veber, etc.)
+BioavailabilityScore	
+
+Active
+
+
 
 **🧠 Model Pipeline**
 
